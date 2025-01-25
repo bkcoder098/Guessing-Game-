@@ -1,8 +1,8 @@
- const max = prompt("enter your max number ");
+ const max = prompt("Enter your max number ");
 
  const random = Math.floor(Math.random()*max)+1;
 
- let guess = prompt("guess your number ");
+ let guess = prompt("Guess your number ");
 
  while(true){
     if(guess == "quit"){
@@ -20,6 +20,6 @@
     }
 
     else if (guess > random) {
-        guess = prompt("your guess to large! please try again")
+        guess = prompt("Your guess to large! please try again")
     }
  }
